@@ -20,7 +20,7 @@ HELLO WELCOME TO FREE FIRE HACK
 
 1ST ENTER YOUR FREE FIRE ID
 
-THEN YOU GOT 50000 GEMS
+THEN YOU GOT MINIMUM 50000 GEMS
 
 THANKS FOR USING THIS TOOL
 
@@ -60,9 +60,10 @@ ok = input("now enter: ")
 
 if ok == "1":
 
-  input("now enter your gems value: ")
+  inp = input("now enter your gems value: ")
 
   print ("Done ✅")
+  print ("\n\n {} gems transferd on your account".format(inp))
 
 elif ok == '2':
 
