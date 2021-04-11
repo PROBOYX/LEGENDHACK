@@ -71,7 +71,7 @@ elif ok == '2':
 elif ok == '3':
 
   print ("Done")
-elif ok == "4"
+elif ok == "4":
   exit()
 
 else:
